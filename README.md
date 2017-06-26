@@ -1,5 +1,14 @@
 # Jesi
-Jesi Personal Screenshot Restful Service
+Jesi something that does things.
+
+---
+
+#### Idea Pad
+
+* Screenshot Api to Store Screenshot in Base64 in a Database.
+* Restful Blog Service.
+* Social Rest Integrations (Probably Github, Spotify, Fitbit, Twitter, Possibly More)
+* Probably More as i think of it.
 
 ---
 

@@ -10,6 +10,9 @@ Jesi something that does things.
 * Social Rest Integrations (Probably Github, Spotify, Fitbit, Twitter, Possibly More)
 * Probably More as i think of it.
 
+Im thinking this might turn into some sort of super basic CMS for personal websites that has the
+ability to integrate with many services and be highly extensible via rest endpoints.
+
 ---
 
 Im using a lot of git flow at work so im going to use this repo as the test bed for integrating it into personal projects.

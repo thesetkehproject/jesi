@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/thesetkehproject/jesi/controllers"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
+	"github.com/thesetkehproject/jesi/controllers"
 )
 
 func main() {
@@ -13,8 +13,9 @@ func main() {
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 
-	e.POST("/users", controllers.PostScreenshot(e))
+	e.POST("/screenshot", controllers.PostScreenshot)
+	e.GET("/test", controllers.TestRest)
 
 	// Server
-	e.Run(standard.New(":1323"))
+	e.Logger.Fatal(e.Start(":1323"))
 }

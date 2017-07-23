@@ -29,5 +29,5 @@ pipeline:
       - ${DRONE_REPO_BRANCH/\//-}-${DRONE_BUILD_NUMBER}
     dockerfile: Dockerfile    
     insecure: true
-    repo: registry.home.setkeh.com:5000/jesi
+    repo: registry.setkeh.com:5000/jesi
     registry: registry.home.setkeh.com:5000

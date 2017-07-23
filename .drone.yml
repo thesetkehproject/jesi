@@ -1,0 +1,33 @@
+workspace:
+  base: /go
+  path: src/github.com/thesetkehproject/jesi
+
+pipeline:
+  initialize-project:
+    image: golang
+    commands:
+      - go get
+  
+  test:
+    image: golang
+    commands:
+      - go test
+
+  build:
+    image: golang
+    environment:
+      - GOOS=linux
+      - GOARCH=amd64
+      - CGO_ENABLED=0
+    commands:
+      - go build -o jesi
+
+  docker:
+    image: plugins/docker
+    tags:
+      - latest
+      - ${DRONE_REPO_BRANCH/\//-}-${DRONE_BUILD_NUMBER}
+    dockerfile: Dockerfile    
+    insecure: true
+    repo: registry.home.setkeh.com:5000/jesi
+    registry: registry.home.setkeh.com:5000

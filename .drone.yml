@@ -6,7 +6,7 @@ pipeline:
   initialize-project:
     image: golang
     commands:
-      - go get
+      - go get -v
   
   test:
     image: golang

@@ -2,6 +2,7 @@
 Jesi something that does things.
 
 ---
+[![Build Status](http://drone.setkeh.com:8000/api/badges/thesetkehproject/jesi/status.svg)](http://drone.setkeh.com:8000/thesetkehproject/jesi)
 
 #### Idea Pad
 

@@ -32,7 +32,7 @@ Feel Free to fork and contribute to any part of this project including open issu
 ---
 #### Git Flow
 
-The Master branch should always be working code amd never committed to.
+The Master branch should always be working code and never committed to.
 
 develop branch will be all testing code and currently in development but should also never be committed too, Each project milestone will be forked from master upon commencement and no more than one milestone should be in progress at once.
 

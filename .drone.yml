@@ -30,4 +30,4 @@ pipeline:
     dockerfile: Dockerfile    
     insecure: true
     repo: registry.setkeh.com:5000/jesi
-    registry: registry.home.setkeh.com:5000
+    registry: http://registry.home.setkeh.com:5000

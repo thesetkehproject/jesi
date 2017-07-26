@@ -15,6 +15,10 @@ Im thinking this might turn into some sort of super basic CMS for personal websi
 ability to integrate with many services and be highly extensible via rest endpoints.
 
 ---
+#### Issues
+* It Looks like there is an issue with Drone's new RPC so there might be some fully random commits untill i iron out exactly what is on the happening.
+
+---
 
 Im using a lot of git flow at work so im going to use this repo as the test bed for integrating it into personal projects.
 As it a Nice clean way of managing git projects.

@@ -36,7 +36,7 @@ The Master branch should always be working code and never committed to.
 
 Develop branch will be all testing code and currently in development but should also never be committed too, Each project milestone will be forked from master upon commencement and no more than one milestone should be in progress at once.
 
-feature branch's: Feature branches are where work should be conducted either in repo or from pull request by contributors once a feature has passed integration testing it will be merged into develop.
+Feature branch's: Feature branches are where work should be conducted either in repo or from pull request by contributors once a feature has passed integration testing it will be merged into develop.
 
 This model should help ensure that edge branch (develop) and release (master) should always have mostly/working code.
 

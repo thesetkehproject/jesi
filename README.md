@@ -4,6 +4,15 @@ Jesi something that does things.
 ---
 [![Build Status](http://drone.setkeh.com:8000/api/badges/thesetkehproject/jesi/status.svg)](http://drone.setkeh.com:8000/thesetkehproject/jesi)
 
+--
+#### Config
+Currently config can be edited by editing global_config.go for release 1.0 this will be changed to all environment variables for easy deployment in docker.
+
+Current Environment Variables:
+
+`MONGO_SERVER_ADDRESS` - The Address of the mongo instance in compose you should be able to set this to a linked container.
+
+---
 #### Idea Pad
 
 * Screenshot Api to Store Screenshot in Base64 in a Database.
